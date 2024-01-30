@@ -6,19 +6,20 @@ public class Player {
     public Figure choose(String string) {
 
         if (string == "Rock") {
-            new Rock();
+            return new Rock();
+            
         }
         if (string == "Paper") {
-            new Paper();
+            return  new Paper();
         }
         if (string == "Scissors") {
-            new Scissors();
+            return new Scissors();
         }
 
         return null;
 
-    }
+    } 
 
-
+    
 }
 

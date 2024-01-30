@@ -7,12 +7,6 @@ public class App
     public static void main( String[] args )
     {
 
-        String player1;
-        String player2;
-        
-        Game game = new Game();
-        
-
 
 
     }
