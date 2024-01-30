@@ -6,7 +6,14 @@ public class App
 {
     public static void main( String[] args )
     {
-    Game game = new Game();
+
+        String player1;
+        String player2;
+        
+        Game game = new Game();
+        
+
+
 
     }
 }
