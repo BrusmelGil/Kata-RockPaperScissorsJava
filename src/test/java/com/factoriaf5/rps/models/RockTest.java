@@ -10,14 +10,12 @@ public class RockTest {
     @Test
     public void testRock() {
 
-
         Rock rock = new Rock();
 
         assertTrue(rock instanceof Rock);
         assertEquals("Rock", rock.getType());
         
 
-    
     }
     
 }
