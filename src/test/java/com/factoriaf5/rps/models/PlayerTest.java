@@ -57,5 +57,19 @@ public class PlayerTest {
         assertEquals("Scissors", scissors.getType());
     }
 
+    @Test
+    public void Testplayer1ChooseLizard() {
+        Figure lizard = player1.choose("Lizard");
+        assertTrue(lizard instanceof Lizard);
+        assertEquals("Lizard", lizard.getType());
+    }
+
+    @Test
+    public void Testplayer2ChooseLizard() {
+        Figure lizard = player2.choose("Lizard");
+        assertTrue(lizard instanceof Lizard);
+        assertEquals("Lizard", lizard.getType());
+    }
+
 
 }

@@ -5,21 +5,23 @@ public class Player {
 
     public Figure choose(String string) {
 
-        if (string == "Rock") {
+        if ("Rock".equals(string)) {
             return new Rock();
-            
         }
-        if (string == "Paper") {
-            return  new Paper();
+        if ("Paper".equals(string)) {
+            return new Paper();
         }
-        if (string == "Scissors") {
+        if ("Scissors".equals(string)) {
             return new Scissors();
         }
-
+        if ("Lizard".equals(string)) {
+            return new Lizard();
+        }
+        if ("Spock".equals(string)) {
+            return new Spock();
+        } 
         return null;
-
-    } 
-
+    }
     
 }
 
